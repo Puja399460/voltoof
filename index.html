@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VaultofCodes - Certificate Verifier (Dev)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="brand-header">
+    <img src="logov.png" alt="logov" class="brand-logo" />
+    <h1 class="brand-title">VaultofCodes</h1>
+  </header>
+
+  <main>
+    <div class="container" role="form" aria-label="Certificate Verification Form">
+      <label for="identifier" style="display:none;">Email or ID</label>
+      <input id="identifier" type="text" placeholder="Enter Email or ID" aria-label="Email or ID" autocomplete="off" />
+      <button onclick="verifyStudent()" aria-label="Verify Certificate">Verify</button>
+    </div>
+    <div id="result" aria-live="polite"></div>
+    <div class="spinner hidden" aria-label="Loading"></div>
+  </main>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="dummy.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaultofCodes Internship Opportunities</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="internship.css">
+</head>
+<body>
+  <main class="internship-container">
+    <h1 class="internship-title">Explore Our Internship Programs</h1>
+    <div class="internship-cards">
+      <section class="internship-card">
+        <h2>Web Development Internship</h2>
+        <p>Gain hands-on experience building modern web applications with the latest technologies.</p>
+        <a href="https://example.com" class="apply-btn" target="_blank">Apply Now</a>
+      </section>
+      <section class="internship-card">
+        <h2>Data Science Internship</h2>
+        <p>Work on real-world data projects and learn from industry experts in data analysis and machine learning.</p>
+        <a href="https://example.com" class="apply-btn" target="_blank">Apply Now</a>
+      </section>
+      <section class="internship-card">
+        <h2>UI/UX Design Internship</h2>
+        <p>Design beautiful and user-friendly interfaces while collaborating with creative professionals.</p>
+        <a href="https://example.com" class="apply-btn" target="_blank">Apply Now</a>
+      </section>
+    </div>
+  </main>
+</body>
+</html> 
